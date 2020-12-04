@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;  
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8E07C0;
+    perspective: 1000px; 
+
+}
+
+.container {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    
+    
+}
+
+.card{
+    
+    transform-style: preserve-3d; 
+    min-height: 400px;
+    width: 650px;
+    box-shadow: 0px 30px 30px rgba(0,0,0,0.5), 0px 0px 50px rgba(0,0,0,0.5);
+    border-radius: 30px;
+    background-image: url('./img/NuBank.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
