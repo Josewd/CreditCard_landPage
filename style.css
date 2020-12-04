@@ -26,6 +26,9 @@ body{
     
 }
 
+.text{
+    color: white;
+}
 .card{
     
     transform-style: preserve-3d; 
